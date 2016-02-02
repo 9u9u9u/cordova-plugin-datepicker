@@ -13,7 +13,7 @@
 
     <keywords>cordova,phonegap,datepicker,android,ios,ios7,ios8,wp</keywords>
 
-    <repo>https://github.com/VitaliiBlagodir/cordova-plugin-datepicker.git</repo>
+    <repo>https://github.com/9u9u9u/cordova-plugin-datepicker.git</repo>
 
     <!-- android -->
     <platform name="android">
@@ -31,6 +31,7 @@
     </platform>
 
     <!-- ios -->
+    <!--
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
         <feature name="DatePicker">
@@ -46,8 +47,10 @@
         <source-file src="src/ios/DatePicker.m" />
         <resource-file src="src/ios/DatePicker.xib" />
     </platform>
+	-->
 	
     <!-- windows -->
+    <!--
     <platform name="windows">		
         <js-module src="www/windows/DatePicker.js" name="DatePicker">
             <clobbers target="datePicker" />
@@ -56,5 +59,6 @@
             <merges target="" />
         </js-module>
     </platform>
+    -->
 
 </plugin>
